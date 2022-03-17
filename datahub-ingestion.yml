@@ -1,0 +1,38 @@
+version: 1
+source: DataHub
+owners:
+  users:
+    - mjames
+url: "https://github.com/linkedin/datahub/"
+nodes:
+  - name: Classification
+    description: A set of terms related to Data Classification
+    terms:
+      - name: MDV Disease
+        description: MDV Disease
+  - name: Subject
+    description: All terms related to Subject
+    terms:
+      - name: subject.id
+        description: subject.id
+      - name: subject.tags.gender
+        description: subject.tags.gender
+  - name: Event
+    description: All terms related to Event
+    terms:
+      - name: event.tags.age
+        description: event.tags.age
+      - name: event.date
+        description: event.date
+      - name: event.tags.dispensingType
+        description: event.tags.dispensingType
+      - name: event.tags.diagnosisType
+        description: event.tags.diagnosisType
+      - name: event.tags.conditionConfirm
+        description: event.tags.conditionConfirm
+      - name: event.code
+        description: event.code
+      - name: icd10code
+        description: icd10code
+      - name: event.tags.conditionConfirm
+        description: event.tags.conditionConfirm
